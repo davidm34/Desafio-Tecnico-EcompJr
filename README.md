@@ -57,9 +57,9 @@ O design e a funcionalidade da landing page foram prototipados utilizando o Figm
 
 ## Autores
 <!--
-- Nome - Desenvolvedor Full-Stack - GitHub
-- Nome - Desenvolvedor Full-Stack - GitHub
-- Nome - Desenvolvedor Full-Stack - GitHub
+- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
+- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
+- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
  -->
 ## Licença
 <!-- Caso tenha ou precise -->

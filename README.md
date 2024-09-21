@@ -55,5 +55,11 @@ O design e a funcionalidade da landing page foram prototipados utilizando o Figm
 ## Segurança
 <!-- As senhas dos usuários são armazenadas utilizando (Escrever o nome do oque foi ultilizado para a seguranca do usuario. Ex: Hashing ) seguro para garantir a proteção dos dados.  -->
 
+## Autores
+<!--
+- Nome - Desenvolvedor Full-Stack - GitHub
+- Nome - Desenvolvedor Full-Stack - GitHub
+- Nome - Desenvolvedor Full-Stack - GitHub
+ -->
 ## Licença
 <!-- Caso tenha ou precise -->

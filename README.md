@@ -8,51 +8,52 @@ A Ecomp Jr, empresa júnior de Engenharia de Computação da UEFS, identificou a
 
 Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da Ecomp Jr. O objetivo deste projeto é facilitar a gestão de tarefas para membros e administradores, proporcionando uma ferramenta eficiente e organizada para o acompanhamento das atividades.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Front-end: React.js
 - Back-end: FastAPI
 - Banco de Dados: SQLite
 
-# Funcionalidades
- ## Usuários 
+## Funcionalidades
+ ### Usuários 
 - Cadastro de Usuários: Permite que novos usuários se cadastrem na plataforma.
 - Login de Usuários: Sistema de login para que os usuários possam acessar suas tarefas.
 - Adição e Exclusão de Tarefas: Usuários podem adicionar novas tarefas e excluir tarefas existentes.
 
- ## Administradores
+ ### Administradores
 - Cadastro e Login de Administradores: Administradores podem se cadastrar e fazer login para acessar funcionalidades adicionais.
 - Gerenciamento de Usuários: Administradores podem adicionar e remover usuários da plataforma.
 
-# Requisitos
+## Requisitos
 - Node.js (versão mínima: 14.x) // Corrigir essa parte tbm
 - Python (versão mínima: 3.8) // Corrigir essa parte tbm
 - SQLite (incluído na instalação padrão do Python)
 
-# Instalação?
-## Front-end
+## Instalação?
+### Front-end
 <!-- Imagens do passo a passo caso tenha -->
 
-## Back-end
+### Back-end
 <!-- Imagens do passo a passo caso tenha -->
 
-# Como Usar
-1. Acesse a aplicação pelo navegador em http://localhost:3000 (padrão do React).
+## Como Usar
+1. Acesse a aplicação pelo navegador em [Local Host](http://localhost:3000) (padrão do React). <!-- Colocar o link do nosso -->
 2. Faça o cadastro e login para acessar suas tarefas.
 3. Administre suas tarefas utilizando as funcionalidades de adição e exclusão.
 4. Se for um administrador, gerencie usuários através do painel administrativo.
 
-# Protótipo
-O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo [aqui](Link Do projeto).
-
-# Diagrama de Classes
-![Foto do Diagrama](Link da foto)
+## Protótipo
+O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo <!--[aqui](Link Do projeto).-->
 <!-- Caso tenha -->
 
-# Commits Padronizados
+## Diagrama de Classes
+<!--![Foto do Diagrama](Link da foto)  -->
+<!-- Caso tenha -->
+
+## Commits Padronizados
 <!-- Utilize a convenção de commits padronizados para garantir uma documentação clara e consistente do histórico do projeto. --> 
 
-# Segurança
-- As senhas dos usuários são armazenadas utilizando (Escrever o nome do oque foi ultilizado para a seguranca do usuario. Ex: Hashing ) seguro para garantir a proteção dos dados.
+## Segurança
+<!-- As senhas dos usuários são armazenadas utilizando (Escrever o nome do oque foi ultilizado para a seguranca do usuario. Ex: Hashing ) seguro para garantir a proteção dos dados.  -->
 
-# Licença
+## Licença
 <!-- Caso tenha ou precise -->

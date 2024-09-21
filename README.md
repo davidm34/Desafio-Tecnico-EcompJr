@@ -1,8 +1,58 @@
-# React + Vite
+# To-Do List - Ecomp Jr
+<!-- Por enquanto e isso -->
+<p align="center">
+  <img src="https://camo.githubusercontent.com/db980c646602a9606321a9c0e27177897567980838481e8a94d709d7fdc4d8cf/68747470733a2f2f696d6775722e636f6d2f38446a53576a582e706e67" alt="LogoECOMPJr" width="200"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Ecomp Jr, empresa júnior de Engenharia de Computação da UEFS, identificou a necessidade de uma ferramenta para gerenciar tarefas de forma eficiente, tanto para seus membros quanto para administradores. Atualmente, a gestão de tarefas é realizada manualmente, o que gera dificuldades na organização e no acompanhamento das atividades.
 
-Currently, two official plugins are available:
+Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da Ecomp Jr. O objetivo deste projeto é facilitar a gestão de tarefas para membros e administradores, proporcionando uma ferramenta eficiente e organizada para o acompanhamento das atividades.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologias Utilizadas
+- Front-end: React.js
+- Back-end: FastAPI
+- Banco de Dados: SQLite
+
+# Funcionalidades
+ ## Usuários 
+- Cadastro de Usuários: Permite que novos usuários se cadastrem na plataforma.
+- Login de Usuários: Sistema de login para que os usuários possam acessar suas tarefas.
+- Adição e Exclusão de Tarefas: Usuários podem adicionar novas tarefas e excluir tarefas existentes.
+
+ ## Administradores
+- Cadastro e Login de Administradores: Administradores podem se cadastrar e fazer login para acessar funcionalidades adicionais.
+- Gerenciamento de Usuários: Administradores podem adicionar e remover usuários da plataforma.
+
+# Requisitos
+- Node.js (versão mínima: 14.x) // Corrigir essa parte tbm
+- Python (versão mínima: 3.8) // Corrigir essa parte tbm
+- SQLite (incluído na instalação padrão do Python)
+
+# Instalação?
+## Front-end
+<!-- Imagens do passo a passo caso tenha -->
+
+## Back-end
+<!-- Imagens do passo a passo caso tenha -->
+
+# Como Usar
+1. Acesse a aplicação pelo navegador em http://localhost:3000 (padrão do React).
+2. Faça o cadastro e login para acessar suas tarefas.
+3. Administre suas tarefas utilizando as funcionalidades de adição e exclusão.
+4. Se for um administrador, gerencie usuários através do painel administrativo.
+
+# Protótipo
+O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo [aqui](Link Do projeto).
+
+# Diagrama de Classes
+![Foto do Diagrama](Link da foto)
+<!-- Caso tenha -->
+
+# Commits Padronizados
+<!-- Utilize a convenção de commits padronizados para garantir uma documentação clara e consistente do histórico do projeto. --> 
+
+# Segurança
+- As senhas dos usuários são armazenadas utilizando (Escrever o nome do oque foi ultilizado para a seguranca do usuario. Ex: Hashing ) seguro para garantir a proteção dos dados.
+
+# Licença
+<!-- Caso tenha ou precise -->

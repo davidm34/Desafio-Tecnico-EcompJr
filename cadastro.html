@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="background-image: url(fundo.png);">
+    <div class="flex justify-center items-center h-screen">
+        <div class="h-3/5 hy-60 w-1/3 rounded-2xl pl-5 bg-white">
+            <h1 class="flex justify-center p-3 text-3xl font-bold text-[#b20303]">
+                Cadastre-se
+            </h1>
+            
+            <form id="registrationForm" class="flex flex-col p-4 px-0">
+                <label for="Nome" class="pb-1">Nome: </label>
+                <input type="text" id="Nome" name="Nome" class="bg-slate-200 p-2 w-10/12 rounded-2xl">
+
+                <label for="Email" class="pt-3 pb-1">Email: </label>
+                <input type="email" id="Email" name="Email" class="bg-slate-200 p-2 w-10/12 rounded-2xl" required>
+                
+                <label for="Senha" class="pt-3 pb-1">Senha: </label>
+                <input type="password" id="Senha" name="Senha" class="bg-slate-200 p-2 w-10/12 rounded-2xl" required>    
+            </form>
+            
+            <div class="flex justify-center pt-2">
+                <button id="registerButton" class="font-mono text-black bg-[#b20303] text-white p-4 rounded-2xl flex justify-center">
+                    Cadastrar
+                </button>
+            </div>
+
+            <div class="flex justify-center pt-3">
+                <p>Já está registrado? <a href="login.html" class="font-bold text-[#b20303]">Entrar</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Essa parte vou deixar comentada tambem pra facilitar pro Backend -->
+    <!-- Tentei implementar, caso apareca erros me avisa-->
+    <script>
+        document.getElementById('registerButton').addEventListener('click', async (e) => {
+            e.preventDefault(); // Impede o comportamento padrão do botão
+
+            const nome = document.getElementById('Nome').value;
+            const email = document.getElementById('Email').value;
+            const senha = document.getElementById('Senha').value;
+
+            const userData = {
+                nome,
+                email,
+                senha,
+            };
+
+            try {
+                const response = await fetch('/api/cadastrar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(userData),
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    alert('Cadastro realizado com sucesso!');
+                    window.location.href = 'login.html'; // Redireciona para a página de login
+                } else {
+                    alert(result.message); // Mostra mensagem de erro
+                    window.location.href = 'login.html'; // Redireciona para a página de login se já cadastrado
+                }
+            } catch (error) {
+                console.error('Erro:', error);
+                alert('Ocorreu um erro ao cadastrar. Tente novamente.');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="background-image: url(fundo.png);">
+    <div class="flex flex-col justify-center items-center h-screen">
+        <div class="h-4/5 w-2/3 rounded-2xl pl-5 bg-white">
+            <h1 class="flex justify-center p-3 text-3xl font-bold text-[#b20303]">
+                To-do List
+            </h1>
+            <form id="reminderForm" class="flex flex-col p-4" onsubmit="addReminder(event)"> <!-- Essa linha e javascript -->
+                <input type="text" id="reminderInput" class="bg-slate-200 p-2 rounded-2xl" placeholder="Adicionar lembrete..." required>
+                <div class="flex justify-center pt-4">
+                    <button type="submit" class="font-mono text-black bg-[#b20303] text-white p-2 rounded-2xl">
+                        Adicionar
+                    </button>
+                </div>
+            </form>
+            <div class="p-4">
+                <h2 class="text-xl font-bold">Lembretes:</h2>
+                <ul id="reminderList" class="list-disc pl-5 pt-2"></ul>
+            </div>
+        </div>
+    </div>
+<!-- Essa parte vou deixar comentada pra facilitar pro Backend -->
+    <script>
+        // Função para adicionar lembrete
+        function addReminder(event) {
+            event.preventDefault(); // Previne o envio do formulário
+
+            const input = document.getElementById('reminderInput'); // Obtém o valor do input
+            const reminderText = input.value; // Armazena o valor do input
+            const reminderList = document.getElementById('reminderList'); // Obtém a lista de lembretes
+
+            // Cria um novo item de lista
+            const li = document.createElement('li');
+            li.classList.add('py-1', 'flex', 'justify-between', 'items-center');
+            li.innerHTML = `${reminderText} <button class="text-red-500" onclick="removeReminder(this)">Remover</button>`;
+            reminderList.appendChild(li); // Adiciona o novo lembrete à lista
+
+            input.value = ''; // Limpa o campo de entrada
+        }
+
+        // Função para remover lembrete
+        function removeReminder(button) {
+            const li = button.parentElement; // Obtém o elemento pai (li)
+            li.remove(); // Remove o lembrete da lista
+        }
+    </script>
+</body>
+</html>

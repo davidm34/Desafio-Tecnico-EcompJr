@@ -28,38 +28,38 @@ Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da 
 - Python (versão mínima: 3.8) // Corrigir essa parte tbm
 - SQLite (incluído na instalação padrão do Python)
 
-## Instalação?
+## Instalação
 ### Front-end
 <!-- Imagens do passo a passo caso tenha -->
-
-### Back-end
+ Não e necessario fazer nenhuma instalação apenas baixar os repositorios
+<!-- ### Back-end -->
 <!-- Imagens do passo a passo caso tenha -->
+<!-- Não fizeram o backend -->
 
 ## Como Usar
-1. Acesse a aplicação pelo navegador em [Local Host](http://localhost:3000) (padrão do React). <!-- Colocar o link do nosso -->
-2. Faça o cadastro e login para acessar suas tarefas.
-3. Administre suas tarefas utilizando as funcionalidades de adição e exclusão.
-4. Se for um administrador, gerencie usuários através do painel administrativo.
+<!--1. Acesse a aplicação pelo navegador em [Local Host](http://localhost:3000) (padrão do React). Colocar o link do nosso -->
+1. Faça o cadastro e login para acessar suas tarefas.
+2. Administre suas tarefas utilizando as funcionalidades de adição e exclusão.
+3. Se for um administrador, gerencie usuários através do login administrativo.
 
-## Protótipo
-O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo <!--[aqui](Link Do projeto).-->
+<!--## Protótipo -->
+<!-- O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo <!--[aqui](Link Do projeto).-->
 <!-- Caso tenha -->
 
 ## Diagrama de Classes
-<!--![Foto do Diagrama](Link da foto)  -->
-<!-- Caso tenha -->
+![Imagem do WhatsApp de 2024-09-30 à(s) 16 47 40_04951e97](https://github.com/user-attachments/assets/f13f1f10-a876-4911-a896-7b670a5f3813)
 
-## Commits Padronizados
+<!--## Commits Padronizados -->
 <!-- Utilize a convenção de commits padronizados para garantir uma documentação clara e consistente do histórico do projeto. --> 
 
-## Segurança
-<!-- As senhas dos usuários são armazenadas utilizando (Escrever o nome do oque foi ultilizado para a seguranca do usuario. Ex: Hashing ) seguro para garantir a proteção dos dados.  -->
+<!--## Segurança -->
+<!-- As senhas dos usuários são armazenadas utilizando Hashing seguro para garantir a proteção dos dados.  -->
 
 ## Autores
-<!--
-- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
-- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
-- Nome - Desenvolvedor Full-Stack - [GitHub](Link)
- -->
-## Licença
+
+- David Neves Dias - Desenvolvedor Full-Stack - [davidm34](https://github.com/davidm34)
+<!-- Nome - Desenvolvedor Full-Stack - [GitHub](Link)-->
+- Walace de Jesus Venas - Desenvolvedor Front-End - [LordWalace](https://github.com/LordWalace)
+
+<!--## Licença -->
 <!-- Caso tenha ou precise -->

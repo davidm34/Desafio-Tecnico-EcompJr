@@ -27,15 +27,15 @@ Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da 
 - Node.js (versão mínima: 14.x) 
 - Python (versão mínima: 3.8) 
 - SQLite (incluído na instalação padrão do Python)
-
+<!--
 ## Instalação
 ### Front-end
-<!-- Imagens do passo a passo caso tenha -->
+ Imagens do passo a passo caso tenha
  Não e necessario fazer nenhuma instalação apenas baixar os repositorios
-<!-- ### Back-end -->
-<!-- Imagens do passo a passo caso tenha -->
-<!-- Não fizeram o backend -->
-
+ ### Back-end 
+ Imagens do passo a passo caso tenha 
+ Não fizeram o backend
+-->
 ## Como Usar
 <!--1. Acesse a aplicação pelo navegador em [Local Host](http://localhost:3000) (padrão do React). Colocar o link do nosso -->
 1. Faça o cadastro e login para acessar suas tarefas.

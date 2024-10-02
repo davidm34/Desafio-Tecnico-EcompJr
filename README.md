@@ -24,8 +24,8 @@ Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da 
 - Gerenciamento de Usuários: Administradores podem adicionar e remover usuários da plataforma.
 
 ## Requisitos
-- Node.js (versão mínima: 14.x) // Corrigir essa parte tbm
-- Python (versão mínima: 3.8) // Corrigir essa parte tbm
+- Node.js (versão mínima: 14.x) 
+- Python (versão mínima: 3.8) 
 - SQLite (incluído na instalação padrão do Python)
 
 ## Instalação

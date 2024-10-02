@@ -46,7 +46,7 @@ Esta aplicação é uma To-Do List desenvolvida para atender as necessidades da 
 <!-- O design e a funcionalidade da landing page foram prototipados utilizando o Figma. Confira o protótipo completo <!--[aqui](Link Do projeto).-->
 <!-- Caso tenha -->
 
-## Diagrama de Classes
+## Diagrama
 ![Imagem do WhatsApp de 2024-09-30 à(s) 16 47 40_04951e97](https://github.com/user-attachments/assets/f13f1f10-a876-4911-a896-7b670a5f3813)
 
 <!--## Commits Padronizados -->
